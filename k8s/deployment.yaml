@@ -1,20 +1,20 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: dgfdss
+  name: ssjnmghjhvb 
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: dgfdss
+      app: ssjnmghjhvb 
   template:
     metadata:
       labels:
-        app: dgfdss
+        app: ssjnmghjhvb 
     spec:
       containers:
-      - image: okteto.dev/dgfdss:latest
-        name: dgfdss
+      - image: okteto.dev/ssjnmghjhvb :latest
+        name: ssjnmghjhvb 
         ports:
         - containerPort: 8080
         env:
@@ -29,6 +29,6 @@ spec:
         - name: Vmess_UUID
           value: "b535cefe-19e7-49cd-bacc-e5a71577cb32"
         - name: Vmess_Path
-          value: "/b535cefe-19e7-49cd-bacc-e5a71577cb32"
+          value: "/b535cefe-19e7-49cd-bacc-e5a71577cb32-vmess"
         - name: Share_Path
           value: "/v2rgdfdsfhhk"
